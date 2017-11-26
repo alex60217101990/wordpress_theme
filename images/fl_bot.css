@@ -1,0 +1,49 @@
+.fab {
+  background: radial-gradient(circle at 50% 25%, aqua, darkblue);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 100;
+  color: #FFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 2.6667em;
+  display: inline-block;
+  cursor: default;
+}
+.fab span {
+  vertical-align: middle;
+}
+.fab.child {
+  right: 58.66666667px;
+  width: 42.66666667px;
+  height: 42.66666667px;
+  display: none;
+  opacity: 0;
+  font-size: 2em;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ECECEC;
+  opacity: 0.5;
+  display: none;
+}
+
+
+img#im777{
+  position: relative;
+  width: 35px; height: 40px;
+  top:10px;
+}
+img.subFlBot{
+  position: relative;
+  width: 24px; height: 24px;
+
+}
